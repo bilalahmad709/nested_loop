@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>nested loops</title>
 </head>
 <body>
-    
+    <h2>NESTED LOOP</h2>
+    <P> A nested loop in JavaScript is a loop inside another loop. It allows you to iterate over a 
+        set of elements multiple times, where each iteration of the outer loop triggers a complete 
+        iteration of the inner loop. This creates a "nested" structure where the inner loop is executed 
+        repeatedly for each iteration of the outer loop. Nested loops are commonly used when you need to
+         perform operations on combinations or permutations of data or when working with multi-dimensional 
+         arrays or matrices.</P>
+
+         <script>
+            for(var a=1; a <= 100; a= a+10){
+              for( var b=a; b<a+10 ;b++){
+                document.write(b + " " )
+              }
+              document.write( "<br>")
+            }
+         </script>
 </body>
 </html>
